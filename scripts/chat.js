@@ -14,7 +14,7 @@ let userMessages = [];
 
 // Payment configuration - Easy to modify
 const PAYMENT_PRICE_MESSAGE = "The fee is only <strong>$19.90</strong>";
-const PAYMENT_LINK = 'https://evolution2two.mycartpanda.com/checkout';
+const PAYMENT_LINK = 'https://evolution2two.mycartpanda.com/checkout/202624454:1';
 
 // Function to show typing indicator
 function showTypingIndicator() {
