@@ -1716,7 +1716,7 @@ function processLoveLifeResponse(response) {
                                                     
                                                     setTimeout(() => {
                                                         hideTypingIndicator();
-                                                        const imageText1 = "This is Mayara. She also asked me to reveal the name and traits of the person in the drawing!";
+                                                        const imageText1 = "This is Mayara. After receiving her drawing, she came back to me and inside her private space she found her Palm Reading, her daily horoscope, and she talks to me every single day. She told me I changed her life. 🖐️✨";
                                                         const currentTime6 = getCurrentTime();
                                                         const textMessageEl1 = createTextMessage(imageText1, currentTime6, false);
                                                         chatMessages.appendChild(textMessageEl1);
@@ -1754,7 +1754,7 @@ function processLoveLifeResponse(response) {
                                                                     
                                                                     setTimeout(() => {
                                                                         hideTypingIndicator();
-                                                                        const imageText2 = "This is Olivia, in less than 1 month, she had already found the person in the drawing!";
+                                                                        const imageText2 = "This is Olivia. She found him in less than a month and she says the daily guidance she received through her private area kept her focused, confident, and ready when he appeared. 💕";
                                                                         const currentTime8 = getCurrentTime();
                                                                         const textMessageEl2 = createTextMessage(imageText2, currentTime8, false);
                                                                         chatMessages.appendChild(textMessageEl2);
@@ -2228,7 +2228,7 @@ function processConfirmDrawingResponse(response) {
                                                                         
                                                                         setTimeout(() => {
                                                                             hideTypingIndicator();
-                                                                            const confirmMessage = "To send you the drawing as soon as I finish, I just need your confirmation. Please click the button below to confirm!";
+                                                                            const confirmMessage = "To send you the drawing and unlock your complete private space, I just need your confirmation below. Everything will be ready and waiting for you the moment you enter. 🔮✨";
                                                                             const currentTime8 = getCurrentTime();
                                                                             const confirmMessageEl = createTextMessage(confirmMessage, currentTime8, false);
                                                                             chatMessages.appendChild(confirmMessageEl);
