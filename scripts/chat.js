@@ -2361,7 +2361,7 @@ function processFinalConfirmation(response) {
         
         setTimeout(() => {
             hideTypingIndicator();
-            const specialMomentMessage = "You are very close to experiencing a special moment! But now, <strong>pay close attention, dear...</strong>";
+            const specialMomentMessage = "You are about to receive something that very few women ever get access to. Please read this carefully... 🙏</strong>";
             const currentTime2 = getCurrentTime();
             const specialMomentEl = createTextMessage(specialMomentMessage, currentTime2, true);
             chatMessages.appendChild(specialMomentEl);
