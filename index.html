@@ -7,8 +7,19 @@
   <title>Solumate Chat</title>
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
   <!-- ESPAÇO DE SCRIPTS DE TRACKEAMENTO -->
-
+  
+  <!-- Captura fbclid -->
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const fbclid = urlParams.get('fbclid');
+    if (fbclid) {
+      const fbc = `fb.1.${Date.now()}.${fbclid}`;
+      document.cookie = `_fbc=${fbc}; max-age=${60*60*24*90}; path=/; domain=.${location.hostname}`;
+    }
+  </script>
+  
 <script>
   window.tikTokPixelId = "69e7ab52d221f579a60545fa";
   var a = document.createElement("script");
@@ -18,14 +29,6 @@
   document.head.appendChild(a);
 </script>
   
- <script>
-  window.tikTokPixelId = "69e7ab52d221f579a60545fa";
-  var a = document.createElement("script");
-  a.setAttribute("async", "");
-  a.setAttribute("defer", "");
-  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel-tiktok.js");
-  document.head.appendChild(a);
-</script>
   
 <script
   src="https://cdn.utmify.com.br/scripts/utms/latest.js"
