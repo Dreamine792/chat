@@ -668,6 +668,10 @@ function sendNameResponse(name) {
   if (typeof fbq !== 'undefined') {
     fbq('track', 'Lead');
   }
+
+  if (typeof ttq !== 'undefined') {
+    ttq.track('CompleteRegistration');
+  }
   
   // Rolar para baixo
   chatMessages.scrollTop = chatMessages.scrollHeight;
@@ -1905,9 +1909,14 @@ function processDrawingResponse(response) {
     });
 
   // Disparo AddToCart - usuário quer ver características
-    if (typeof fbq !== 'undefined' && response.includes("characteristics")) {
-        fbq('track', 'AddToCart');
-    }
+        if (response.includes("characteristics")) {
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'AddToCart');
+            }
+            if (typeof ttq !== 'undefined') {
+                ttq.track('AddToCart');
+            }
+        }
     
     // Rolar para baixo
     chatMessages.scrollTop = chatMessages.scrollHeight;
