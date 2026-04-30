@@ -664,6 +664,11 @@ function sendNameResponse(name) {
     time: currentTime
   });
   
+  // Disparo Lead - usuário forneceu o nome
+  if (typeof fbq !== 'undefined') {
+    fbq('track', 'Lead');
+  }
+  
   // Rolar para baixo
   chatMessages.scrollTop = chatMessages.scrollHeight;
   
@@ -1898,6 +1903,11 @@ function processDrawingResponse(response) {
         content: response,
         time: currentTime
     });
+
+  // Disparo AddToCart - usuário quer ver características
+    if (typeof fbq !== 'undefined' && response.includes("characteristics")) {
+        fbq('track', 'AddToCart');
+    }
     
     // Rolar para baixo
     chatMessages.scrollTop = chatMessages.scrollHeight;
