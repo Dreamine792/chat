@@ -14,7 +14,7 @@ let userMessages = [];
 
 // Payment configuration - Easy to modify
 const PAYMENT_PRICE_MESSAGE = "The fee is only <strong>$19.90</strong>";
-const PAYMENT_LINK = 'https://go.centerpag.com/PPU38CQ9QL1';
+const PAYMENT_LINK = 'https://go.centerpag.com/PPU38CQBBF2';
 
 // Function to show typing indicator
 function showTypingIndicator() {
