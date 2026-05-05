@@ -2504,7 +2504,7 @@ function processFinalConfirmation(response) {
                                                         
                                                         setTimeout(() => {
                                                             hideTypingIndicator();
-                                                            const paymentMessage = "I will leave a <strong>button below</strong> for you to make the payment of the fee. After that, I will send the portrait of your soulmate by email and provide personal guidance to you over the next few months, Important: When entering your email, please add the word SOUL in front of it. For example: soul+youremail@gmail.com";
+                                                            const paymentMessage = "I will leave a <strong>button below</strong> for you to make the payment of the fee. After that, I will send the portrait of your soulmate by email and provide personal guidance to you over the next few months, so that the universe can quickly manifest the person destined to have a special connection with you.";
                                                             const currentTime7 = getCurrentTime();
                                                             const paymentMessageEl = createTextMessage(paymentMessage, currentTime7, true);
                                                             chatMessages.appendChild(paymentMessageEl);
