@@ -13,7 +13,7 @@ let userMessages = [];
 // const STORAGE_KEY = 'whatsapp_chat_data';
 
 // Payment configuration - Easy to modify
-const PAYMENT_PRICE_MESSAGE = "The fee is only <strong>$19.90 or ZAR 374,96</strong>";
+const PAYMENT_PRICE_MESSAGE = "The fee is only <strong>$19.90</strong>";
 const PAYMENT_LINK = 'https://go.centerpag.com/PPU38CQ9QL1';
 
 // Function to show typing indicator
@@ -2503,27 +2503,11 @@ function processFinalConfirmation(response) {
                                                         showTypingIndicator();
                                                         
                                                         setTimeout(() => {
-    hideTypingIndicator();
-
-    const part1 = "I will leave a <strong>button below</strong> for you to make the payment of the fee.";
-    const part2 = "After that, I will send the portrait of your soulmate by email and provide personal guidance over the next few months, so the universe can quickly manifest the person destined to have a special connection with you.";
-    const part3 = "Important: When entering your email, please add the word SOUL in front of it. For example: soul+youremail@gmail.com This helps us identify that it's really you, prioritize the creation of your soulmate’s portrait, and as a bonus, I’ll also gift you a free palm reading.";
-
-    const sendMessage = (text, delay) => {
-        return new Promise(resolve => {
-            setTimeout(() => {
-                const msg = createTextMessage(text, getCurrentTime(), true);
-                chatMessages.appendChild(msg);
-                resolve();
-            }, delay);
-        });
-    };
-
-    sendMessage(part1, 0)
-        .then(() => sendMessage(part2, 1200))
-        .then(() => sendMessage(part3, 1200));
-
-}, 1000);
+                                                            hideTypingIndicator();
+                                                            const paymentMessage = "I will leave a <strong>button below</strong> for you to make the payment of the fee. After that, I will send the portrait of your soulmate by email and provide personal guidance to you over the next few months, so that the universe can quickly manifest the person destined to have a special connection with you.";
+                                                            const currentTime7 = getCurrentTime();
+                                                            const paymentMessageEl = createTextMessage(paymentMessage, currentTime7, true);
+                                                            chatMessages.appendChild(paymentMessageEl);
                                                             
                                                             // Adicionar ao array displayedMessages 
                                                             displayedMessages.push({
