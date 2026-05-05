@@ -13,7 +13,7 @@ let userMessages = [];
 // const STORAGE_KEY = 'whatsapp_chat_data';
 
 // Payment configuration - Easy to modify
-const PAYMENT_PRICE_MESSAGE = "The fee is only <strong>$19.90</strong>";
+const PAYMENT_PRICE_MESSAGE = "The fee is only <strong>$19.90 or ZAR 373,07</strong>";
 const PAYMENT_LINK = 'https://go.centerpag.com/PPU38CQ9QL1';
 
 // Function to show typing indicator
