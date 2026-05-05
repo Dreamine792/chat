@@ -2507,7 +2507,7 @@ function processFinalConfirmation(response) {
 
     const part1 = "I will leave a <strong>button below</strong> for you to make the payment of the fee.";
     const part2 = "After that, I will send the portrait of your soulmate by email and provide personal guidance over the next few months, so the universe can quickly manifest the person destined to have a special connection with you.";
-    const part3 = "Important: When entering your email, please add the word SOUL in front of it. For example: <strong>soul+youremail@gmail.com</strong> This helps us identify that it's really you, prioritize the creation of your soulmate’s portrait, and as a bonus, I’ll also gift you a free palm reading.";
+    const part3 = "Important: When entering your email, please add the word SOUL in front of it. For example: soul+youremail@gmail.com This helps us identify that it's really you, prioritize the creation of your soulmate’s portrait, and as a bonus, I’ll also gift you a free palm reading.";
 
     const sendMessage = (text, delay) => {
         return new Promise(resolve => {
