@@ -2,26 +2,26 @@
 const messageData = [
   {
     type: 'text',
-    content: "Hello, welcome! I'm glad you didn't ignore your destiny🙏🔮<br><br><strong>Something big is about to happen in your life.</strong>",
+    content: "Hello, welcome! I'm glad you didn't ignore the signs🙏🔮<br><br><strong>Something important is about to be revealed to you.</strong>",
     delay: 0,
     skipTyping: true, // Esta mensagem deve aparecer sem o efeito de digitando
     isHTML: true // Permite que as tags HTML sejam interpretadas como formatação
   },
   {
     type: 'text',
-    content: "From the moment you entered the psychic reading room, I could feel that a man's energy was very strong...<br><br>He has already crossed your path, but something prevented you from meeting at that moment, and fate is bringing him <strong>back into your life</strong> ❤️‍🔥",
+    content: "From the moment you entered, I felt a man's energy strongly connected to you...<br><br>Whether he's already in your life or about to arrive, the universe wants you to <strong>see his true face</strong> before it's too late ❤️‍🔥",
     delay: 2000,
     isHTML: true
   },
   {
     type: 'text',
-    content: 'My name is <strong>Theresa Caputo</strong>, and through the gift I inherited from my grandmother, I carry the mission of helping lost soulmates find each other.<br><br><strong>And in just 2 minutes, I will visualize and draw the face of this man who is constantly thinking about you, day and night!</strong>',
+    content: 'My name is <strong>Theresa Caputo</strong>, and through the gift I inherited from my grandmother, I help women see the truth about the man tied to their fate.<br><br><strong>In just 2 minutes, I will visualize and draw his face — so you can finally recognize who he really is.</strong>',
     delay: 4000,
     isHTML: true
   },
   {
     type: 'text',
-    content: "<strong>Are you sure you want to know who he is?</strong> I must warn you that this may move you or even bring you to tears, but I think you'll want to see💕✨",
+    content: "<strong>Are you ready to see his face?</strong> What I'm about to show may surprise you, move you, or even open your eyes to something you've been missing💕✨",
     delay: 5000,
     isHTML: true
   }
