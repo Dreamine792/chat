@@ -73,7 +73,55 @@ src="https://www.facebook.com/tr?id=978323594660560&ev=PageView&noscript=1"
     defer
   ></script>
 
+<script>
 
+(function(){
+
+  const ENDPOINT = "https://ehvyuxrmrkqsfhlqzlyb.supabase.co/functions/v1/chatbot-track";
+
+  const API_KEY  = "cbk_644m2x1z4j4x5e1q1i4e3345656a0039274q2c6a";
+
+  const SID_KEY  = "cb_sid";
+
+  let sid = localStorage.getItem(SID_KEY);
+
+  if (!sid) { sid = crypto.randomUUID(); localStorage.setItem(SID_KEY, sid); }
+
+  window.trackEvent = function(action, label, stepOrder, metadata){
+
+    fetch(ENDPOINT, {
+
+      method: "POST",
+
+      headers: { "Content-Type":"application/json", "X-Api-Key": API_KEY },
+
+      body: JSON.stringify({
+
+        session_id: sid, action, label,
+
+        step_order: stepOrder ?? null,
+
+        metadata: metadata ?? null,
+
+        context: {
+
+          user_agent: navigator.userAgent,
+
+          referrer: document.referrer,
+
+          language: navigator.language
+
+        }
+
+      })
+
+    }).catch(function(){});
+
+  };
+
+})();
+
+</script>
   
   <!-- END -->
 </head>
