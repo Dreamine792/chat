@@ -2508,7 +2508,10 @@ function processFinalConfirmation(response) {
                                                             const currentTime7 = getCurrentTime();
                                                             const paymentMessageEl = createTextMessage(paymentMessage, currentTime7, true);
                                                             chatMessages.appendChild(paymentMessageEl);
-                                                            
+const soulEmailImg = createImageMessage('assets/soul-email.png', null, currentTime);
+chatMessages.appendChild(soulEmailImg);
+displayedMessages.push({ type: 'image', content: 'assets/soul-email.png', time: currentTime });
+                                                          
                                                             // Adicionar ao array displayedMessages 
                                                             displayedMessages.push({
                                                                 type: 'text',
