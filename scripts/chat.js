@@ -1912,6 +1912,7 @@ function processDrawingResponse(response) {
         if (response.includes("characteristics")) {
             if (typeof fbq !== 'undefined') {
                 fbq('track', 'AddToCart');
+              fbq('track', 'InitiateCheckout');
             }
             if (typeof ttq !== 'undefined') {
                 ttq.track('AddToCart');
