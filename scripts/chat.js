@@ -14,7 +14,7 @@ let userMessages = [];
 
 // Payment configuration - Easy to modify
 const PAYMENT_PRICE_MESSAGE = "The fee is only <strong>$19.90 or ZAR 373,07</strong><br>And you'll receive much more than just his face";
-const PAYMENT_LINK = 'https://go.centerpag.com/PPU38CQAUG3';
+const PAYMENT_LINK = 'https://go.centerpag.com/PPU38CQ9QL1';
 
 // Function to show typing indicator
 function showTypingIndicator() {
