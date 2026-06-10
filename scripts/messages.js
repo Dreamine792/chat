@@ -2,26 +2,26 @@
 const messageData = [
   {
     type: 'text',
-    content: "You made it. I was worried this link would be taken down before you clicked.🙏🔮<br><br><strong>What I'm about to reveal to you goes against everything the dating industry wants you to know.</strong>",
+    content: "Hello, welcome! I'm glad you didn't ignore the signs🙏🔮<br><br><strong>Something important is about to be revealed to you.</strong>",
     delay: 0,
     skipTyping: true, // Esta mensagem deve aparecer sem o efeito de digitando
     isHTML: true // Permite que as tags HTML sejam interpretadas como formatação
   },
   {
     type: 'text',
-    content: "The dating apps and matchmakers have been lying to women like you for years. They want you to believe you're too old, or that you need to 'try harder'.<br><br>They profit from keeping you single and swiping... but their game is over. ❤️‍🔥",
+    content: "From the moment you entered, I felt a very unique energy...<br><br>It's the energy of a woman who has been incredibly strong for a long time. You've built your life, you protect your peace, but sometimes... the armor gets heavy. ❤️‍🔥",
     delay: 2000,
     isHTML: true
   },
   {
     type: 'text',
-    content: 'My name is <strong>Theresa Caputo</strong>, I use a specific frequency and gift that bypasses their entire system.<br><br><strong>In just 90 seconds, I will visualize and draw the exact face of the man your soul is already linked to. No apps. No blind dates. Just the truth.</strong>',
+    content: 'My name is <strong>Theresa Caputo</strong>. Through my gift, I help women like you see the truth about their fate.<br><br><strong>In just 2 minutes, I will visualize and draw the face of the man who is destined to let you rest. The one who adds to your peace, not disrupts it.</strong>',
     delay: 4000,
     isHTML: true
   },
   {
     type: 'text',
-    content: "<strong>Are you ready to see his face?</strong> What I'm about to show you will prove that love hasn't forgotten about you. 💕✨",
+    content: "<strong>Are you ready to see his face?</strong> What I'm about to show you might finally make you drop your guard💕✨",
     delay: 5000,
     isHTML: true
   }
