@@ -9,13 +9,13 @@ const messageData = [
   },
   {
     type: 'text',
-    content: "From the moment you entered, I felt a man's energy strongly connected to you...<br><br>Whether he's already in your life or about to arrive, the universe wants you to <strong>see his true face</strong> before it's too late ❤️‍🔥",
+    content: "The dating apps and matchmakers have been lying to women like you for years. They want you to believe you're too old, or that you need to 'try harder'.<br><br>They profit from keeping you single and swiping... but their game is over. ❤️‍🔥",
     delay: 2000,
     isHTML: true
   },
   {
     type: 'text',
-    content: 'My name is <strong>Theresa Caputo</strong>, and through the gift I inherited from my grandmother, I help women see the truth about the man tied to their fate.<br><br><strong>In just 2 minutes, I will visualize and draw his face — so you can finally recognize who he really is.</strong>',
+    content: 'My name is <strong>Theresa Caputo</strong>, I use a specific frequency and gift that bypasses their entire system.<br><br><strong>In just 90 seconds, I will visualize and draw the exact face of the man your soul is already linked to. No apps. No blind dates. Just the truth.</strong>',
     delay: 4000,
     isHTML: true
   },
