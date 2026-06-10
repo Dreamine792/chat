@@ -21,7 +21,7 @@ const messageData = [
   },
   {
     type: 'text',
-    content: "<strong>Are you ready to see his face?</strong> What I'm about to show may surprise you, move you, or even open your eyes to something you've been missing💕✨",
+    content: "<strong>Are you ready to see his face?</strong> What I'm about to show you will prove that love hasn't forgotten about you. 💕✨",
     delay: 5000,
     isHTML: true
   }
