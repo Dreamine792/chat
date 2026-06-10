@@ -2,7 +2,7 @@
 const messageData = [
   {
     type: 'text',
-    content: "Hello, welcome! I'm glad you didn't ignore the signs🙏🔮<br><br><strong>Something important is about to be revealed to you.</strong>",
+    content: "You made it. I was worried this link would be taken down before you clicked.🙏🔮<br><br><strong>What I'm about to reveal to you goes against everything the dating industry wants you to know.</strong>",
     delay: 0,
     skipTyping: true, // Esta mensagem deve aparecer sem o efeito de digitando
     isHTML: true // Permite que as tags HTML sejam interpretadas como formatação
